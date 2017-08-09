@@ -1,1 +1,2 @@
-"# Advanced-JavaScript-I course" 
+Advanced-JavaScript-I Course
+============================
