@@ -33,3 +33,7 @@ Congelá-se o objeto dentro do construtor, depois de receber os parâmetros:
 ```javascript
 Object.freeze(this);
 ```
+
+**7.A instância é imutável mesmo?**
+
+A data, sendo um objeto do tipo Date(), pode ser mudada. Só atributos do objeto criado que serão congelados.
