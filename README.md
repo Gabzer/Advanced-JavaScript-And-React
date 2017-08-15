@@ -37,3 +37,7 @@ Object.freeze(this);
 **7.A instância é imutável mesmo?**
 
 A data, sendo um objeto do tipo Date(), pode ser mudada. Só atributos do objeto criado que serão congelados.
+
+**8.Programação defensiva**
+
+O getTime de uma data retornará um número long com uma representação da data.
