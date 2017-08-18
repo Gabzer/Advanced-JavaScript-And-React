@@ -57,4 +57,7 @@ Em JS, quando declaro _var_ não existe escopo de bloco (uma _var_ dentro de um 
 
 função _typeof()_ mostra o tipo de uma variável.
 
+para evitar percorrer o DOM muitas vezes, podemos colocar a obtenção dos dados dentro do construtor do controller.
+
+o objeto _Date_ cria(pelo join) uma string separada por vírgula a partir da data passada para ele.
 **5.**
