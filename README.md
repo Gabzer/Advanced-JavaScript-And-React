@@ -52,4 +52,9 @@ O getTime de uma data retornará um número long com uma representação da data
 Em JS, quando declaro _var_ não existe escopo de bloco (uma _var_ dentro de um _for_ pode ser acessada fora). Com o _let_ o escopo existe.
 
 
-**15.**
+3-A ligação entre as ações do usuário e o modelo
+----------------------------
+
+função _typeof()_ mostra o tipo de uma variável.
+
+**5.**
