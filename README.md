@@ -60,4 +60,17 @@ função _typeof()_ mostra o tipo de uma variável.
 para evitar percorrer o DOM muitas vezes, podemos colocar a obtenção dos dados dentro do construtor do controller.
 
 o objeto _Date_ cria(pelo join) uma string separada por vírgula a partir da data passada para ele.
-**5.**
+
+quando feito assim: _let data = new Date(2017, 10, 30)_ o mês é contado de 0 à 11.
+
+No _ES6_, temos o recurso **spread operator** que significa que o array está desmembrado e cada parâmetro será posicionado na mesma ordem no construtor.
+
+Quando se tem uma só instrução em uma função não precisa colocar o bloco {} e pode ser feito inline e pode-se tb emitir a palavra 'return'.
+
+Exemplo de **Arrow Function**:
+
+```javascript
+(item, indice) => item - indice % 2
+```
+
+**Aula4.1.**
