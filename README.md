@@ -73,4 +73,4 @@ Exemplo de **Arrow Function**:
 (item, indice) => item - indice % 2
 ```
 
-**Aula4.1.**
+**Aula4.3.**
