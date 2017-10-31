@@ -73,4 +73,20 @@ Exemplo de **Arrow Function**:
 (item, indice) => item - indice % 2
 ```
 
+Métodos STATIC -> os métodos são invocados diretamente da classe sem a necessidade de uma instância; métodos que pertencem à definição da classe.
+
+**Template Strings**: maneira mais prática de se concatenar uma string no ES6.
+
+Em vez disso:
+
+```javascript
+data.getDate() + '/' + (data.getMonth() + 1)  + '/' + data.getFullYear();
+```
+
+fazer desse jeito:
+
+```javascript
+`${data.getDate()}/${(data.getMonth()+1)}/${data.getFullYear()}`;
+```
+
 **Aula4.3.**
