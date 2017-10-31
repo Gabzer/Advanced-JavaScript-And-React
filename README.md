@@ -89,4 +89,10 @@ fazer desse jeito:
 `${data.getDate()}/${(data.getMonth()+1)}/${data.getFullYear()}`;
 ```
 
-**Aula4.3.**
+**Immediately-invoked function expression (IIFE) ou a função imediata**: Trata-se de um recurso usado na criação de escopo em JavaScript, que nos ajudará a colocar um bloco na expressão, sendo executado imediatamente.
+
+```javascript
+(function())()    //esse último conjunto de parenteses é característico do IIFE
+```
+
+**Aula5.5.**
