@@ -96,5 +96,3 @@ fazer desse jeito:
 ```
 
 **função reduce()**: processa o array e no fim, disponibiliza um único resultado. Recebe dois parametros: uma função e o valor inicial de uma das variáveis internas da função que acumulará os resultados do array.
-
-**Aula6.3.**
