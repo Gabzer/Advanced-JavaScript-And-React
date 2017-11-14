@@ -31,4 +31,8 @@ O atributo _props_ é herdado da classe Component do React e ele guarda parâmet
 
 Notificamos o React que uma verificação de _atualização_ é necessária através da invocação da função **setState**. Nela passamos a propriedade que já existe na variável state e também passamos o novo valor que deve ser associado a ela.
 
-**5.1**
+Boas Práticas do React: casos que chamamos de **Higher-order Components**. São os componentes responsáveis por encapsular um estado que será trabalhado por vários outros componentes e que comumente nomeamos utilizando o sufixo _Box_. Depois, de criá-lo, podemos passá-lo como argumento. Pode passar como argumento a função que atualizará o estado.
+
+**Publish - Subscribe**: um evento publica o aviso e quem se interessar se inscreve para recebê-lo. Foi usado a biblioteca _PubSubJS_ aqui, que serve tanto para Client-side como para Server-side.
+
+**5.6**
