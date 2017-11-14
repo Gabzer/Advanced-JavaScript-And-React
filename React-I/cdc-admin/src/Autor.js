@@ -55,10 +55,10 @@ class FormularioAutor extends Component {
         return (
             <div className="pure-form pure-form-aligned">
                 <form className="pure-form pure-form-aligned" onSubmit={this.enviaForm} method="post"> 
-                <InputCustomizado id="nome" label="Nome" type="text" name="nome" value={this.state.nome} onChange={this.setNome} />
-                <InputCustomizado id="email" label="Email" type="email" name="email" value={this.state.email} onChange={this.setEmail} />                  
-                <InputCustomizado id="senha" label="Senha" type="password" name="senha" value={this.state.senha} onChange={this.setSenha} />                                      
-                <SubmitCustomizado type="submit" label="Gravar" />                                    
+                    <InputCustomizado id="nome" label="Nome" type="text" name="nome" value={this.state.nome} onChange={this.setNome} />
+                    <InputCustomizado id="email" label="Email" type="email" name="email" value={this.state.email} onChange={this.setEmail} />                  
+                    <InputCustomizado id="senha" label="Senha" type="password" name="senha" value={this.state.senha} onChange={this.setSenha} />                                      
+                    <SubmitCustomizado type="submit" label="Gravar" />                                    
                 </form>
             </div> 
         );
@@ -101,7 +101,6 @@ export default class AutorBox extends Component {
     constructor() {
         super();
         this.state = {lista: []};
-        this.atualizaListagem = this.atualizaListagem;
     }
 
     componentDidMount(){  
