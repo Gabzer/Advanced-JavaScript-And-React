@@ -35,4 +35,6 @@ Boas Práticas do React: casos que chamamos de **Higher-order Components**. São
 
 **Publish/Subscribe**: é um MiddleWare. Um evento publica o aviso e quem se interessar se inscreve para recebê-lo. Foi usado a biblioteca _PubSubJS_ aqui, que serve tanto para Client-side como para Server-side.
 
-**6.1**
+**react-router**: tem _components_ que ajudam no roteamento dos componentes em um site Single-Page-Application (npm install --save react-router)
+
+**7.1**
