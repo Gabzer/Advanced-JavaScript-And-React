@@ -37,4 +37,16 @@ Boas Práticas do React: casos que chamamos de **Higher-order Components**. São
 
 **react-router**: tem _components_ que ajudam no roteamento dos componentes em um site Single-Page-Application (npm install --save react-router)
 
-**7.1**
+**Spread operator**: {...this.props}
+
+**Build**
+
+```text
+npm run build
+```
+
+Sites com _plus_ do React:
+
+www.react-toolbox.com/#/components
+
+js.coach/react
