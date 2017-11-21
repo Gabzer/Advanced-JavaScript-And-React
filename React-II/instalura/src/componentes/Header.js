@@ -7,7 +7,7 @@ export default class Header extends Component {
                 <h1 className="header-logo">
                     Instalura
                 </h1>
-                <form classNameName="header-busca">
+                <form className="header-busca">
                     <input type="text" name="search" placeholder="Pesquisa" className="header-busca-campo" />
                     <input type="submit" value="Buscar" className="header-busca-submit" />
                 </form>

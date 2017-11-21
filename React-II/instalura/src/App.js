@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import Header from './componentes/Header';
-import TimeLine from './componentes/TimeLine';
+import Timeline from './componentes/Timeline';
 
 class App extends Component {
   render() {
     return (
       <div id="root">
-        <div classNameName="main">
+        <div className="main">
 
           <Header />
-          <TimeLine />
+          <Timeline />
           
-        </div> {/*fim .main*/}
+        </div>
       </div>
     );
   }
