@@ -37,6 +37,20 @@ export default class Timeline extends Component {
         }
     }
 
+    like(fotoId) {
+        fetch(`http://localhost:8080/api/fotos/${fotoId}/like?X-AUTH-TOKEN=${localStorage.getItem('auth-token')}`, {method: 'POST'})
+            .then(response => {
+                if(response.ok) {
+                    return response.json();
+                } else {
+                    throw new Error("Não foi possível realizar o like da foto");
+                }
+            })
+            .then(liker => {
+                Pubsub.publish('atualiza-liker', {fotoId, liker});
+            });
+    }
+
     render() {
         return (
             <div className="fotos container">
@@ -44,7 +58,7 @@ export default class Timeline extends Component {
                                      transitionEnterTiemout={500}
                                      transitionLeaveTiemout={300}>
                 {
-                    this.state.fotos.map(foto => <FotoItem key={foto.id} foto={foto} />)
+                    this.state.fotos.map(foto => <FotoItem key={foto.id} foto={foto} like={this.like} />)
                 }
             </ReactCSSTransitionGroup>
             </div>
