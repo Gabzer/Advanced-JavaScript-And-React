@@ -189,6 +189,16 @@ margin-right: 1em;
 background-image: url(../imgs/s2-check.png)
 }
 
+.fotoAtualizacoes-like-ativo {
+    background: url(../imgs/s2-check.png) no-repeat center center;
+    background-size: 32px 32px;
+    width: 44px;
+    height: 44px;
+    text-indent: -9999px;
+    display: inline-block;
+    transition: .4s;
+    margin-right: 1em;
+  }
 
 .fotoAtualizacoes-form {
 display: flex;
@@ -208,3 +218,21 @@ background-color: #069;
 color: #fff;
 height: 2.4em;
 }
+
+.timeline-enter {
+opacity: 0.01;
+}
+
+.timeline-enter.timeline-enter-active {
+opacity: 1;
+transition: opacity 500ms ease-in;
+}
+
+.timeline-leave {
+opacity: 1;
+}
+
+.timeline-leave.timeline-leave-active {
+opacity: 0.01;
+transition: opacity 300ms ease-in;
+} 

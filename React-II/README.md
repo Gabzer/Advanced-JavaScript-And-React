@@ -6,6 +6,10 @@ npm start
 ```
 
 ```
+npm install pubsub-js --save
+```
+
+```
 java -jar instalura.jar
 ```
 
@@ -21,4 +25,4 @@ Utilizamos o parâmetro **onEnter** e passamos uma função que centraliza a _l�
 
 O método **componentWillReceiveProps** serve justamente para sermos notificados quando um componente receber novos parâmetros. A ideia é que em função das novas propriedades, possamos tomar alguma decisão, por exemplo alterando o estado e disparando uma nova renderização.
 
-**4.**
+**5.4**
