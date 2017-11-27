@@ -25,4 +25,9 @@ Utilizamos o parâmetro **onEnter** e passamos uma função que centraliza a _l�
 
 O método **componentWillReceiveProps** serve justamente para sermos notificados quando um componente receber novos parâmetros. A ideia é que em função das novas propriedades, possamos tomar alguma decisão, por exemplo alterando o estado e disparando uma nova renderização.
 
-**5.4**
+**Presentational component**: componente focado na apresentação.
+
+**Functional component**: componente sem estado(stateless). Só recebe o argumento _props_ dos outros.
+
+**Container component**: componente que contém uma concentração da lógica de outros componentes.
+
