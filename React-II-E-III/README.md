@@ -31,4 +31,4 @@ O método **componentWillReceiveProps** serve justamente para sermos notificados
 
 **Container component**: componente que contém uma concentração da lógica de outros componentes.
 
-Aula **1.1** 3 minutos
+Aula **1.2**

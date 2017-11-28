@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Header from './componentes/Header';
 import Timeline from './componentes/Timeline';
+import LogicaTimeline from '../logicas/LogicaTimeline';
+
+this.logicaTimeline = new LogicaTimeline([]);
 
 class App extends Component {
   render() {
