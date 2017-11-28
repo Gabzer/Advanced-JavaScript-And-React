@@ -31,4 +31,6 @@ O método **componentWillReceiveProps** serve justamente para sermos notificados
 
 **Container component**: componente que contém uma concentração da lógica de outros componentes.
 
-Aula **1.2**
+Na arquitetura **Flux** a _view_ é notificada por uma mudança do _store_(model). O **Flux** é um design pattern que tem como objetivo descrever melhor o fluxo dos dados na nossa aplicação
+
+Aula **2.1** 11 minutos
