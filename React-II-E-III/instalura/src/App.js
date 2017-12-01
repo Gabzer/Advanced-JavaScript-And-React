@@ -6,14 +6,15 @@ import { createStore } from 'redux';
 
 const timelineStore = new TimelineStore([]);
 
-function timeline(state, action) {
+//REDUCER
+function timeline(state=[], action) {
   if(action.type === 'LISTAGEM') {
-
+    return state;
   }
   return state;
 }
 
-const store = createStore();
+const store = createStore(timeline);
 
 class App extends Component {
   render() {
@@ -22,7 +23,7 @@ class App extends Component {
         <div className="main">
 
           <Header />
-          <Timeline login={this.props.params.login} store={timelineStore} />
+          <Timeline login={this.props.params.login} store={store} />
           
         </div>
       </div>
